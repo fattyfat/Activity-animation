@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/whtie"
+        android:onClick="explode"
+        android:text="explode"
+        android:textColor="@color/brown" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/button2"
+        android:onClick="slide"
+        android:text="slide"
+        android:textColor="@color/brown" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/button3"
+        android:onClick="fade"
+        android:text="fade"
+        android:textColor="@color/brown" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/pic2"
+        android:onClick="share"
+        android:text="TEST"
+        android:transitionName="share" />
+
+    <Button
+        android:id="@+id/fab_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="@drawable/circle"
+        android:layout_marginTop="10dp"
+        android:transitionName="fab" />
+
+</LinearLayout>
