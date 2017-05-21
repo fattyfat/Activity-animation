@@ -4,8 +4,20 @@ Activity animation
 
 Activity過渡動畫
 
-↓ <br>
+Explode ↓ <br>
 ![Example1](gif1.gif)
+<br>
+
+Slide ↓ <br>
+![Example1](gif2.gif)
+<br>
+
+Fade ↓ <br>
+![Example1](gif3.gif)
+<br>
+
+Share ↓ <br>
+![Example1](gif4.gif)
 <br>
 
 App download ↓
